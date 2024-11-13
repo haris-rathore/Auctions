@@ -1,0 +1,14 @@
+body {
+    min-height: 100px;
+    overflow: scroll;
+    overflow-y: scroll;
+    min-width: none;
+    position:relative;
+    padding-top: 10px;
+    transform-origin: 0 0;
+}
+
+.container {
+    overflow-y: scroll;
+    overflow: scroll;
+}

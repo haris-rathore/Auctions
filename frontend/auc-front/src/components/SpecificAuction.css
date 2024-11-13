@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f7;
+    min-height: 100vh;
+    overflow: scroll;
+
+  }
+  
+  .auction-details {
+    max-width: 800px;
+    margin: 40px auto;
+   
+    padding: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .auction-image {
+    flex: 1 1 300px;
+    margin-right: 20px;
+  }
+  
+  .auction-image img {
+    width: 100%;
+
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .auction-info {
+    flex: 2 1 300px;
+  }
+  
+  .auction-title,
+  .description,
+  p {
+    color: #333;
+  }
+  
+  .auction-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+
+  }
+  
+  .description {
+    margin-bottom: 15px;
+  }
+  
+  .bid-form {
+    margin-top: 30px;
+  }
+  
+  .bid-form label {
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .bid-form input[type="number"] {
+    padding: 10px;
+    width: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .bid-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .bid-form button:hover {
+    background-color: #0056b3;
+  }
